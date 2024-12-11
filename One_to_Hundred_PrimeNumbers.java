@@ -3,7 +3,7 @@ public class One_to_Hundred_PrimeNumbers {
         System.out.println("Prime numbers between 1 and 100 are:");
 
         for (int numbers = 2; numbers <= 100; numbers++) {
-            if (isPrime(number)) {
+            if (isPrime(numbers)) {
                 System.out.print(numbers + " ");
             }
         }
