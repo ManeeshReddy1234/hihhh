@@ -2,9 +2,9 @@ public class One_to_Hundred_PrimeNumbers {
     public static void main(String[] args) {
         System.out.println("Prime numbers between 1 and 100 are:");
 
-        for (int number = 2; number <= 100; number++) {
+        for (int numbers = 2; numbers <= 100; numbers++) {
             if (isPrime(number)) {
-                System.out.print(number + " ");
+                System.out.print(numbers + " ");
             }
         }
     }
